@@ -109,7 +109,11 @@ Presionar el botón de la operación deseada (suma, resta, multiplicación, divi
 
 Ver el resultado en la sección de resultado, que se actualizará automáticamente.
 
-📸 Ejemplo
+📸 Ejemplo:
+
+<img width="1357" height="649" alt="calculadora3" src="https://github.com/user-attachments/assets/9d8811ac-4945-4e5c-9206-e90e8380059d" />
+<img width="1355" height="648" alt="calculadora1" src="https://github.com/user-attachments/assets/c50c884c-aef6-4e9d-b6ba-7bfb4f7fbf27" />
+<img width="1357" height="650" alt="calculadora2" src="https://github.com/user-attachments/assets/812a0b3b-8857-48ea-ba96-c6ec865c52f7" />
 
 
 ❌ Errores comunes
