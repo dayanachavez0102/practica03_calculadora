@@ -21,9 +21,7 @@ pip install flet
 
 🧩 Explicación del código
 
-El código está estructurado para permitir al usuario ingresar dos números y realizar una serie de operaciones matemáticas. A continuación, se describen las principales funciones:
-
-Interfaz Gráfica: Utiliza la librería Flet para crear la interfaz, que incluye dos campos de texto para ingresar números, botones para cada operación y un área para mostrar el resultado.
+El código está hecho para que el usuario ingrese dos números y realice una serie de operaciones matemáticas.
 
 Funciones principales:
 
@@ -64,19 +62,17 @@ La calculadora se abrirá en un navegador web.
 
 La Calculadora Básica es una herramienta sencilla que permite realizar operaciones matemáticas comunes como:
 
-Suma
+- Suma
 
-Resta
+- Resta
 
-Multiplicación
+- Multiplicación
 
-División
+- División
 
-Cálculo de porcentaje
+- Cálculo de porcentaje
 
-Raíz cuadrada de dos números
-
-La interfaz es fácil de usar y muestra el resultado de cada operación de manera inmediata.
+- Raíz cuadrada de dos números
 
 🖥️ Requisitos de uso
 
