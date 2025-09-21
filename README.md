@@ -1,81 +1,127 @@
-# Practica03Calculadora app
+📘 Manual Técnico
+📌 Descripción del proyecto
 
-## Run the app
+Este proyecto consiste en una calculadora básica diseñada para realizar operaciones aritméticas sencillas como suma, resta, multiplicación, división, cálculo de porcentaje y raíz cuadrada. El objetivo principal de esta calculadora es proporcionar una interfaz simple e intuitiva para realizar cálculos rápidos, usando la librería Flet para construir interfaces de usuario interactivas.
 
-### uv
+🖥️ Tecnologías usadas
 
-Run as a desktop app:
+Python 3.12.10
 
-```
-uv run flet run
-```
+Flet.
 
-Run as a web app:
+⚙️ Requisitos técnicos
 
-```
-uv run flet run --web
-```
+Tener instalado Python 3.10 o superior.
 
-### Poetry
+Instalar las dependencias ejecutando el siguiente comando:
 
-Install dependencies from `pyproject.toml`:
+pip install flet
 
-```
-poetry install
-```
+📂 Estructura de archivos
+proyecto/
+│── README.md                   # Descripción general del proyecto
+│── flujo_suma.png               # Diagrama de flujo para la operación de suma
+│── flujo_resta.png              # Diagrama de flujo para la operación de resta
+│── flujo_division.png           # Diagrama de flujo para la operación de división
+└── src/
+    ├── main.py                 # Código fuente de la calculadora
+    └── assets/                 # Archivos de recursos, como imágenes o fuentes
 
-Run as a desktop app:
+🧩 Explicación del código
 
-```
-poetry run flet run
-```
+El código está estructurado para permitir al usuario ingresar dos números y realizar una serie de operaciones matemáticas. A continuación, se describen las principales funciones:
 
-Run as a web app:
+Interfaz Gráfica: Utiliza la librería Flet para crear la interfaz, que incluye dos campos de texto para ingresar números, botones para cada operación y un área para mostrar el resultado.
 
-```
-poetry run flet run --web
-```
+Funciones principales:
 
-For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/getting-started/).
+suma(): Realiza la suma de los dos números ingresados.
 
-## Build the app
+resta(): Realiza la resta de los dos números.
 
-### Android
+multiplicacion(): Realiza la multiplicación.
 
-```
-flet build apk -v
-```
+division(): Realiza la división, con manejo de errores para evitar divisiones por cero.
 
-For more details on building and signing `.apk` or `.aab`, refer to the [Android Packaging Guide](https://flet.dev/docs/publish/android/).
+porcentaje(): Calcula el porcentaje de un número basado en otro.
 
-### iOS
+raiz_cuadrada(): Calcula la raíz cuadrada de ambos números.
 
-```
-flet build ipa -v
-```
+🛠️ Posibles errores y soluciones
 
-For more details on building and signing `.ipa`, refer to the [iOS Packaging Guide](https://flet.dev/docs/publish/ios/).
+División por cero: Si el segundo número es 0 y se intenta realizar una división, la calculadora mostrará "División por cero". Solución: Evitar ingresar 0 como segundo número en una división.
 
-### macOS
+Entradas no numéricas: Si el usuario ingresa texto o un valor no numérico en los campos de entrada, la calculadora mostrará "Error". Solución: Ingresar solo números válidos.
 
-```
-flet build macos -v
-```
+Error al calcular porcentaje: Si alguno de los números no es válido, se mostrará "Error". Solución: Asegurarse de que ambos campos contengan valores numéricos.
 
-For more details on building macOS package, refer to the [macOS Packaging Guide](https://flet.dev/docs/publish/macos/).
+🚀 Cómo ejecutar
 
-### Linux
+Navega a la carpeta del proyecto.
 
-```
-flet build linux -v
-```
+Ejecuta el siguiente comando:
 
-For more details on building Linux package, refer to the [Linux Packaging Guide](https://flet.dev/docs/publish/linux/).
+flet run src/main.py
 
-### Windows
 
-```
-flet build windows -v
-```
+La calculadora se abrirá en un navegador web.
 
-For more details on building Windows package, refer to the [Windows Packaging Guide](https://flet.dev/docs/publish/windows/).
+
+👤 Manual de Usuario
+🎯 Presentación de la aplicación
+
+La Calculadora Básica es una herramienta sencilla que permite realizar operaciones matemáticas comunes como:
+
+Suma
+
+Resta
+
+Multiplicación
+
+División
+
+Cálculo de porcentaje
+
+Raíz cuadrada de dos números
+
+La interfaz es fácil de usar y muestra el resultado de cada operación de manera inmediata.
+
+🖥️ Requisitos de uso
+
+Tener instalado Python 3.10 o superior.
+
+Instalar la librería Flet con el siguiente comando:
+
+pip install flet
+
+▶️ Pasos para ejecutar
+
+Descargar o clonar el proyecto desde GitHub.
+
+Abrir la terminal en la carpeta del proyecto.
+
+Ejecutar el siguiente comando para lanzar la calculadora:
+
+flet run src/main.py
+
+
+La aplicación se abrirá en tu navegador.
+
+🔢 Instrucciones de uso
+
+Escribir el primer número en el campo correspondiente.
+
+Escribir el segundo número en el segundo campo.
+
+Presionar el botón de la operación deseada (suma, resta, multiplicación, división, etc.).
+
+Ver el resultado en la sección de resultado, que se actualizará automáticamente.
+
+📸 Ejemplo
+
+
+❌ Errores comunes
+
+División entre cero: Si intentas dividir entre cero, se mostrará un mensaje de error indicando "División por cero". Asegúrate de no ingresar 0 como el segundo número en una operación de división.
+
+Entradas inválidas: Si se ingresa texto en lugar de números, aparecerá el mensaje "Error". Asegúrate de que ambos campos contengan solo números válidos.
