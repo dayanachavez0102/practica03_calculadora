@@ -59,6 +59,8 @@ La calculadora se abrirá en un navegador web.
 
 
 👤 Manual de Usuario
+
+
 🎯 Presentación de la aplicación
 
 La Calculadora Básica es una herramienta sencilla que permite realizar operaciones matemáticas comunes como:
