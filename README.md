@@ -1,3 +1,8 @@
+
+<img width="768" height="22" alt="flujo_division" src="https://github.com/user-attachments/assets/64aaafca-0740-4602-9b03-4286bdf643b5" />
+<img width="768" height="22" alt="flujo_suma" src="https://github.com/user-attachments/assets/6b5ef7c1-f219-4a31-8b8f-b67a8a72add1" />
+<img width="768" height="22" alt="flujo_resta" src="https://github.com/user-attachments/assets/4f339b31-7275-435d-870a-cbfd2d14ccb4" />
+
 📘 Manual Técnico
 
 📌 Descripción del proyecto
