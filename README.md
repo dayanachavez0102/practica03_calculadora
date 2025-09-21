@@ -17,15 +17,7 @@ Instalar las dependencias ejecutando el siguiente comando:
 
 pip install flet
 
-📂 Estructura de archivos
-proyecto/
-│── README.md                   # Descripción general del proyecto
-│── flujo_suma.png               # Diagrama de flujo para la operación de suma
-│── flujo_resta.png              # Diagrama de flujo para la operación de resta
-│── flujo_division.png           # Diagrama de flujo para la operación de división
-└── src/
-    ├── main.py                 # Código fuente de la calculadora
-    └── assets/                 # Archivos de recursos, como imágenes o fuentes
+<img width="648" height="186" alt="image" src="https://github.com/user-attachments/assets/6df4b5ac-1c45-4330-ba73-58743ecaec0c" />
 
 🧩 Explicación del código
 
