@@ -1,7 +1,8 @@
 📘 Manual Técnico
+
 📌 Descripción del proyecto
 
-Este proyecto consiste en una calculadora básica diseñada para realizar operaciones aritméticas sencillas como suma, resta, multiplicación, división, cálculo de porcentaje y raíz cuadrada. El objetivo principal de esta calculadora es proporcionar una interfaz simple e intuitiva para realizar cálculos rápidos, usando la librería Flet para construir interfaces de usuario interactivas.
+Este proyecto consiste en una calculadora básica diseñada para realizar operaciones aritméticas sencillas como suma, resta, multiplicación, división, cálculo de porcentaje y raíz cuadrada.
 
 🖥️ Tecnologías usadas
 
